@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Review App</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .book-list { list-style-type: none; padding: 0; }
+        .book-item { margin: 10px 0; }
+        a { text-decoration: none; color: #007BFF; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Book Review App</h1>
+
+    <div id="auth-links">
+        <a href="/login">Login</a> | 
+        <a href="/register">Register</a>
+    </div>
+
+    <h2>Books for Review</h2>
+    <ul class="book-list">
+        <li class="book-item">
+            <a href="/book/1">Book Title 1</a> by Author 1
+        </li>
+        <li class="book-item">
+            <a href="/book/2">Book Title 2</a> by Author 2
+        </li>
+        <li class="book-item">
+            <a href="/book/3">Book Title 3</a> by Author 3
+        </li>
+        <!-- Add more books here -->
+    </ul>
+
+</body>
+</html>
